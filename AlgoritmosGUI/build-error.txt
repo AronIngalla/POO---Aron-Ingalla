@@ -1,0 +1,278 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< pe.edu.upeu:AlgoritmosGUI >----------------------
+[INFO] Building AlgoritmosGUI 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- gluonfx:1.0.29:build (default-cli) @ AlgoritmosGUI ---
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< pe.edu.upeu:AlgoritmosGUI >----------------------
+[INFO] Building AlgoritmosGUI 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> gluonfx:1.0.29:compile (default-cli) > process-classes @ AlgoritmosGUI >>>
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ AlgoritmosGUI ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ AlgoritmosGUI ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< gluonfx:1.0.29:compile (default-cli) < process-classes @ AlgoritmosGUI <<<
+[INFO] 
+[INFO] 
+[INFO] --- gluonfx:1.0.29:compile (default-cli) @ AlgoritmosGUI ---
+set. 03, 2026 6:07:47 P.?M. com.gluonhq.substrate.util.Logger logInfo
+INFO: Substrate is tested with the Gluon's GraalVM build which you can find at https://github.com/gluonhq/graal/releases.
+While you can still use other GraalVM builds, there is no guarantee that these will work properly with Substrate
+Configuration: ProjectConfiguration{graalPath='C:\MAVEN\graalvm-jdk-21.0.7+8.1', javaStaticSdkVersion='18-ea+prep18-9', javafxStaticSdkVersion='21-ea+11.3', javaVersion=21.0.7, graalVersion=21.0.7, useJNI=true, useJavaFX=true, usePrismSW=false, enableCheckHash=true, targetTriplet=x86_64-microsoft-windows, hostTriplet=x86_64-microsoft-windows, backend='null', bundlesList=[], resourcesList=[], reflectionList=[pe.edu.upeu.algoritmosgui.HelloApplication, pe.edu.upeu.algoritmosgui.MatrizTriangular], jniList=[], initBuildTimeList=[], runtimeArgsList=[], releaseSymbolsList=null, appName='AlgoritmosGUI', releaseConfiguration='ReleaseConfiguration{packageType=null, description='Mi aplicaci?n nativa', vendor='Mi Empresa S.A.', version='1.0.0', macAppStore=false, macSigningUserName=null, macAppCategory=null, bundleName='null', bundleVersion='null', bundleShortVersion='null', providedSigningIdentity='null', providedProvisioningProfile='null', skipSigning=false, simulatorDevice='null', appLabel='null', versionCode='null', versionName='null', providedKeyStorePath='null', providedKeyStorePassword='null', providedKeyAlias='null', providedKeyAliasPassword='null'}', mainClassName='pe.edu.upeu.algoritmosgui.Launcher', classpath='D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\classes;C:\Users\JICAR\.m2\repository\org\controlsfx\controlsfx\11.2.1\controlsfx-11.2.1.jar;C:\Users\JICAR\.m2\repository\org\openjfx\javafx-base\21.0.6\javafx-base-21.0.6-win.jar;C:\Users\JICAR\.m2\repository\org\openjfx\javafx-base\21.0.6\javafx-base-21.0.6.jar;C:\Users\JICAR\.m2\repository\org\openjfx\javafx-controls\21.0.6\javafx-controls-21.0.6-win.jar;C:\Users\JICAR\.m2\repository\org\openjfx\javafx-controls\21.0.6\javafx-controls-21.0.6.jar;C:\Users\JICAR\.m2\repository\org\openjfx\javafx-fxml\21.0.6\javafx-fxml-21.0.6-win.jar;C:\Users\JICAR\.m2\repository\org\openjfx\javafx-fxml\21.0.6\javafx-fxml-21.0.6.jar;C:\Users\JICAR\.m2\repository\org\openjfx\javafx-graphics\21.0.6\javafx-graphics-21.0.6-win.jar;C:\Users\JICAR\.m2\repository\org\openjfx\javafx-graphics\21.0.6\javafx-graphics-21.0.6.jar'}
+[jue set. 03 18:07:47 PET 2026][INFO] ==================== COMPILE TASK ====================
+             _______  ___      __   __  _______  __    _
+            |       ||   |    |  | |  ||       ||  |  | |
+            |    ___||   |    |  | |  ||   _   ||   |_| |
+            |   | __ |   |    |  |_|  ||  | |  ||       |
+            |   ||  ||   |___ |       ||  |_|  ||  _    |
+            |   |_| ||       ||       ||       || | |   |
+            |_______||_______||_______||_______||_|  |__|
+
+    Access to the latest docs, tips and tricks and more info on
+    how to get support? Register your usage of Gluon Substrate now at
+
+    https://gluonhq.com/activate
+
+
+
+[jue set. 03 18:07:48 PET 2026][INFO] We will now compile your code for x86_64-microsoft-windows. This may take some time.
+[jue set. 03 18:07:48 PET 2026][FINE] Extracting native libs to: D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\lib
+[jue set. 03 18:07:48 PET 2026][FINE] Extracting native libs from jar: C:\Users\JICAR\.m2\repository\org\controlsfx\controlsfx\11.2.1\controlsfx-11.2.1.jar
+[jue set. 03 18:07:48 PET 2026][FINE] Extracting native libs from jar: C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.base.jar
+[jue set. 03 18:07:48 PET 2026][FINE] Extracting native libs from jar: C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar
+[jue set. 03 18:07:48 PET 2026][FINE] Extracting native libs from jar: C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.fxml.jar
+[jue set. 03 18:07:48 PET 2026][FINE] Extracting native libs from jar: C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar
+[jue set. 03 18:07:48 PET 2026][FINE] Looking for resource: /native/windows/launcher.c
+[jue set. 03 18:07:48 PET 2026][FINE] PB Command for compile-additional-sources: cl -c -DGVM_VERBOSE -DSUBSTRATE /MD /D_UNICODE /DUNICODE /DWIN32 /D_WINDOWS -ID:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmosGUI launcher.c
+[jue set. 03 18:07:48 PET 2026][FINE] Start process compile-additional-sources...
+[jue set. 03 18:07:48 PET 2026][FINE] [SUB] Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36256 for x64
+[jue set. 03 18:07:48 PET 2026][FINE] [SUB] (C) Microsoft Corporation. Todos los derechos reservados.
+[jue set. 03 18:07:48 PET 2026][FINE] [SUB] 
+[jue set. 03 18:07:48 PET 2026][FINE] [SUB] launcher.c
+[jue set. 03 18:07:48 PET 2026][FINE] Result for compile-additional-sources: 0
+[jue set. 03 18:07:48 PET 2026][FINE] Copied resource D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\classes\META-INF\native-image\filter-file.json to C:\Users\JICAR\AppData\Local\Temp\classes12121637265069363435\META-INF\native-image\filter-file.json
+[jue set. 03 18:07:48 PET 2026][FINE] Copied resource D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\classes\module-info.class to C:\Users\JICAR\AppData\Local\Temp\classes12121637265069363435\module-info.class
+[jue set. 03 18:07:48 PET 2026][FINE] Copied resource D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\classes\pe\edu\upeu\algoritmosgui\HelloApplication.class to C:\Users\JICAR\AppData\Local\Temp\classes12121637265069363435\pe\edu\upeu\algoritmosgui\HelloApplication.class
+[jue set. 03 18:07:48 PET 2026][FINE] Copied resource D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\classes\pe\edu\upeu\algoritmosgui\Launcher.class to C:\Users\JICAR\AppData\Local\Temp\classes12121637265069363435\pe\edu\upeu\algoritmosgui\Launcher.class
+[jue set. 03 18:07:48 PET 2026][FINE] Copied resource D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\classes\pe\edu\upeu\algoritmosgui\MatrizTriangular.class to C:\Users\JICAR\AppData\Local\Temp\classes12121637265069363435\pe\edu\upeu\algoritmosgui\MatrizTriangular.class
+[jue set. 03 18:07:48 PET 2026][FINE] PB Command for jar: C:\MAVEN\graalvm-jdk-21.0.7+8.1\bin\jar.exe cf C:\Users\JICAR\AppData\Local\Temp\classes12121637265069363435\classes.jar -C C:\Users\JICAR\AppData\Local\Temp\classes12121637265069363435 .
+[jue set. 03 18:07:48 PET 2026][FINE] Start process jar...
+[jue set. 03 18:07:49 PET 2026][FINE] Result for jar: 0
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning for init build time files
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.m2\repository\org\controlsfx\controlsfx\11.2.1\controlsfx-11.2.1.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.base.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.fxml.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\AppData\Local\Temp\classes12121637265069363435\classes.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning for reflection files
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.m2\repository\org\controlsfx\controlsfx\11.2.1\controlsfx-11.2.1.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.base.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Adding classes from C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.base.jar::META-INF/substrate/config/reflectionconfig.json
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Adding classes from C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar::META-INF/substrate/config/reflectionconfig.json
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.fxml.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Adding classes from C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.fxml.jar::META-INF/substrate/config/reflectionconfig.json
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Adding classes from C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/reflectionconfig-x86_64-windows.json
+[jue set. 03 18:07:49 PET 2026][FINE] Adding classes from C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/reflectionconfig.json
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\AppData\Local\Temp\classes12121637265069363435\classes.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning for JNI files
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.m2\repository\org\controlsfx\controlsfx\11.2.1\controlsfx-11.2.1.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.base.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.fxml.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Adding classes from C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/jniconfig-x86_64-windows.json
+[jue set. 03 18:07:49 PET 2026][FINE] Adding classes from C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/jniconfig.json
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\AppData\Local\Temp\classes12121637265069363435\classes.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning for resource files
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.m2\repository\org\controlsfx\controlsfx\11.2.1\controlsfx-11.2.1.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.base.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.fxml.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\AppData\Local\Temp\classes12121637265069363435\classes.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Copied resource D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\classes\META-INF\native-image\filter-file.json to C:\Users\JICAR\AppData\Local\Temp\classes12160235392488169484\META-INF\native-image\filter-file.json
+[jue set. 03 18:07:49 PET 2026][FINE] Copied resource D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\classes\module-info.class to C:\Users\JICAR\AppData\Local\Temp\classes12160235392488169484\module-info.class
+[jue set. 03 18:07:49 PET 2026][FINE] Copied resource D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\classes\pe\edu\upeu\algoritmosgui\HelloApplication.class to C:\Users\JICAR\AppData\Local\Temp\classes12160235392488169484\pe\edu\upeu\algoritmosgui\HelloApplication.class
+[jue set. 03 18:07:49 PET 2026][FINE] Copied resource D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\classes\pe\edu\upeu\algoritmosgui\Launcher.class to C:\Users\JICAR\AppData\Local\Temp\classes12160235392488169484\pe\edu\upeu\algoritmosgui\Launcher.class
+[jue set. 03 18:07:49 PET 2026][FINE] Copied resource D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\classes\pe\edu\upeu\algoritmosgui\MatrizTriangular.class to C:\Users\JICAR\AppData\Local\Temp\classes12160235392488169484\pe\edu\upeu\algoritmosgui\MatrizTriangular.class
+[jue set. 03 18:07:49 PET 2026][FINE] PB Command for jar: C:\MAVEN\graalvm-jdk-21.0.7+8.1\bin\jar.exe cf C:\Users\JICAR\AppData\Local\Temp\classes12160235392488169484\classes.jar -C C:\Users\JICAR\AppData\Local\Temp\classes12160235392488169484 .
+[jue set. 03 18:07:49 PET 2026][FINE] Start process jar...
+[jue set. 03 18:07:49 PET 2026][FINE] Result for jar: 0
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning for resource bundles
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.m2\repository\org\controlsfx\controlsfx\11.2.1\controlsfx-11.2.1.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.base.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Adding classes from C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar::META-INF/substrate/config/resourcebundles
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.fxml.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Adding classes from C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/resourcebundles
+[jue set. 03 18:07:49 PET 2026][FINE] Adding classes from C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/resourcebundles-x86_64-windows
+[jue set. 03 18:07:49 PET 2026][FINE] Scanning C:\Users\JICAR\AppData\Local\Temp\classes12160235392488169484\classes.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Copied resource C:\Users\JICAR\.m2\repository\org\controlsfx\controlsfx\11.2.1\controlsfx-11.2.1.jar to D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\tmp\deps\controlsfx-11.2.1.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Copied resource C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.base.jar to D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.base.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Copied resource C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar to D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.controls.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Copied resource C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.fxml.jar to D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.fxml.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Copied resource C:\Users\JICAR\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar to D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.graphics.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Class-Path manifest entry for pathing jar: ..\..\..\..\classes deps\controlsfx-11.2.1.jar deps\javafx.base.jar deps\javafx.controls.jar deps\javafx.fxml.jar deps\javafx.graphics.jar
+[jue set. 03 18:07:49 PET 2026][FINE] Pathing jar created at D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\tmp\classpathJar.jar
+[jue set. 03 18:07:49 PET 2026][FINE] PB Command for compile: C:\MAVEN\graalvm-jdk-21.0.7+8.1\bin\native-image.cmd "-Djdk.internal.lambda.eagerlyInitialize=false" --no-server -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout "-H:DeadlockWatchdogInterval=0" -H:+RemoveSaturatedTypeFlows -H:+ExitAfterRelocatableImageWrite "-H:TempDirectory=D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\tmp" "-H:EnableURLProtocols=http,https" -H:+PrintAnalysisCallTree "-H:Log=registerResource:" "-H:ReflectionConfigurationFiles=D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\reflectionconfig-x86_64-windows.json" "-H:JNIConfigurationFiles=D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\jniconfig-x86_64-windows.json" "-H:ResourceConfigurationFiles=D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\resourceconfig-x86_64-windows.json" "-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com/sun/glass/ui/win/themes" "-Dsvm.platform=org.graalvm.nativeimage.Platform$WINDOWS_AMD64" -cp "C:\Users\JICAR\.m2\repository\com\gluonhq\substrate\0.0.69\substrate-0.0.69.jar;D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\tmp\classpathJar.jar" pe.edu.upeu.algoritmosgui.Launcher
+[jue set. 03 18:07:49 PET 2026][FINE] Start process compile...
+[jue set. 03 18:07:49 PET 2026][INFO] [SUB] Warning: Ignoring server-mode native-image argument --no-server.
+[jue set. 03 18:07:49 PET 2026][INFO] [SUB] Warning: The option '-H:ResourceConfigurationFiles=D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\resourceconfig-x86_64-windows.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[jue set. 03 18:07:49 PET 2026][INFO] [SUB] Warning: The option '-H:-DeadlockWatchdogExitOnTimeout' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[jue set. 03 18:07:49 PET 2026][INFO] [SUB] Warning: The option '-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com/sun/glass/ui/win/themes' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[jue set. 03 18:07:49 PET 2026][INFO] [SUB] Warning: The option '-H:DeadlockWatchdogInterval=0' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[jue set. 03 18:07:49 PET 2026][INFO] [SUB] Warning: The option '-H:+RemoveSaturatedTypeFlows' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[jue set. 03 18:07:49 PET 2026][INFO] [SUB] Warning: The option '-H:ReflectionConfigurationFiles=D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\reflectionconfig-x86_64-windows.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[jue set. 03 18:07:49 PET 2026][INFO] [SUB] Warning: The option '-H:TempDirectory=D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\tmp' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[jue set. 03 18:07:49 PET 2026][INFO] [SUB] Warning: The option '-H:+PrintAnalysisCallTree' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[jue set. 03 18:07:49 PET 2026][INFO] [SUB] Warning: The option '-H:JNIConfigurationFiles=D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\jniconfig-x86_64-windows.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[jue set. 03 18:07:49 PET 2026][INFO] [SUB] Warning: The option '-H:Log=registerResource:' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[jue set. 03 18:07:49 PET 2026][INFO] [SUB] Warning: The option '-H:+ExitAfterRelocatableImageWrite' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[jue set. 03 18:07:49 PET 2026][INFO] [SUB] Warning: The option '-H:EnableURLProtocols=http,https' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[jue set. 03 18:07:49 PET 2026][INFO] [SUB] Warning: The option '-H:+SharedLibrary' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[jue set. 03 18:07:49 PET 2026][INFO] [SUB] Warning: Please re-evaluate whether any experimental option is required, and either remove or unlock it. The build output lists all active experimental options, including where they come from and possible alternatives. If you think an experimental option should be considered as stable, please file an issue.
+[jue set. 03 18:07:53 PET 2026][INFO] [SUB] ========================================================================================================================
+[jue set. 03 18:07:53 PET 2026][INFO] [SUB] GraalVM Native Image: Generating 'pe.edu.upeu.algoritmosgui.launcher' (shared library)...
+[jue set. 03 18:07:53 PET 2026][INFO] [SUB] ========================================================================================================================
+[jue set. 03 18:07:53 PET 2026][INFO] [SUB] For detailed information and explanations on the build output, visit:
+[jue set. 03 18:07:53 PET 2026][INFO] [SUB] https://github.com/oracle/graal/blob/master/docs/reference-manual/native-image/BuildOutput.md
+[jue set. 03 18:07:53 PET 2026][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] [1/8] Initializing...                                                                                    (0.0s @ 0.09GB)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB]                         0.3s (5.7% of total time) in 15 GCs | Peak RSS: 0.57GB | CPU load: 3.77
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] Produced artifacts:
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB]  D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmosGUI\svm_err_b_20260903T180754.873_pid1620.md (build_info)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] ========================================================================================================================
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] Failed generating 'pe.edu.upeu.algoritmosgui.launcher' after 4.1s.
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] The build process encountered an unexpected error:
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] com.oracle.svm.core.util.VMError$HostedError: Unable to run 'D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\tmp\SVM-1788476874306\AArch64LibCHelperDirectives.exe' to compute offsets in C data structures. Is it possible that your antivirus software interferes and puts the resulting file into quarantine?
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at org.graalvm.nativeimage.builder/com.oracle.svm.core.util.VMError.shouldNotReachHere(VMError.java:86)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.c.CAnnotationProcessor.makeQuery(CAnnotationProcessor.java:141)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.c.CAnnotationProcessor.process(CAnnotationProcessor.java:117)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.c.NativeLibraries.finish(NativeLibraries.java:559)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGenerator.processNativeLibraryImports(NativeImageGenerator.java:1753)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGenerator.setupNativeLibraries(NativeImageGenerator.java:1201)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGenerator.setupNativeImage(NativeImageGenerator.java:961)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGenerator.doRun(NativeImageGenerator.java:591)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGenerator.run(NativeImageGenerator.java:551)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGeneratorRunner.buildImage(NativeImageGeneratorRunner.java:539)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGeneratorRunner.build(NativeImageGeneratorRunner.java:721)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGeneratorRunner.start(NativeImageGeneratorRunner.java:143)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGeneratorRunner.main(NativeImageGeneratorRunner.java:98)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] Caused by: java.io.IOException: Cannot run program "D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\tmp\SVM-1788476874306\AArch64LibCHelperDirectives.exe" (in directory "D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\tmp\SVM-1788476874306"): CreateProcess error=4551, Una directiva de Control de aplicaciones bloque? este archivo
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.c.CAnnotationProcessor.makeQuery(CAnnotationProcessor.java:132)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	... 11 more
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] Caused by: java.io.IOException: CreateProcess error=4551, Una directiva de Control de aplicaciones bloque? este archivo
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at java.base/java.lang.ProcessImpl.create(Native Method)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:506)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 	... 13 more
+[jue set. 03 18:07:54 PET 2026][INFO] [SUB] 
+[jue set. 03 18:07:55 PET 2026][FINE] Result for compile: 1
+[jue set. 03 18:07:55 PET 2026][SEVERE] Process compile failed with result: 1
+Check the log files under D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\log
+And please check https://docs.gluonhq.com/ for more information.
+[jue set. 03 18:07:55 PET 2026][INFO] Logging process [compile] to file: D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\log\process-compile-1788476875335.log
+[jue set. 03 18:07:55 PET 2026][SEVERE] Compiling failed.
+Check the log files under D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\AlgoritmosGUI\target\gluonfx\x86_64-windows\gvm\log
+And please check https://docs.gluonhq.com/ for more information.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.135 s
+[INFO] Finished at: 2026-09-03T18:07:55-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal com.gluonhq:gluonfx-maven-plugin:1.0.29:compile (default-cli) on project AlgoritmosGUI: Compiling failed -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.624 s
+[INFO] Finished at: 2026-09-03T18:07:55-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal com.gluonhq:gluonfx-maven-plugin:1.0.29:build (default-cli) on project AlgoritmosGUI: Error, gluonfx:build failed -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal com.gluonhq:gluonfx-maven-plugin:1.0.29:build (default-cli) on project AlgoritmosGUI: Error, gluonfx:build failed
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:362)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.MojoExecutionException: Error, gluonfx:build failed
+    at com.gluonhq.NativeBuildMojo.execute (NativeBuildMojo.java:82)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:362)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR] 
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

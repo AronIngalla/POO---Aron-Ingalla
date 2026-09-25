@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class ComboBoxOption {
-    String Key;
+    String key;
     String value;
 
     @Override

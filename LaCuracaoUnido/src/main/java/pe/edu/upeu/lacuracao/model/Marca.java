@@ -1,0 +1,19 @@
+package pe.edu.upeu.lacuracao.model;
+
+import pe.edu.upeu.lacuracao.enums.LineaNegocio;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+
+public class Marca {
+    private Long idMarca;
+    private String nombre;
+    private LineaNegocio linea;   // a qué línea pertenece (Tecnología, Motos, Doméstica)
+}

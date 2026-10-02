@@ -1,20 +1,23 @@
 package pe.edu.upeu.lacuracao.config;
 
-import pe.edu.upeu.lacuracao.enums.LineaNegocio;
 
 import pe.edu.upeu.lacuracao.controller.MainGuiController;
 import pe.edu.upeu.lacuracao.controller.ProductoController;
+import pe.edu.upeu.lacuracao.controller.ClienteController;
 import pe.edu.upeu.lacuracao.repository.CategoriaRepository;
 import pe.edu.upeu.lacuracao.repository.MarcaRepository;
 import pe.edu.upeu.lacuracao.repository.ProductoRepository;
+import pe.edu.upeu.lacuracao.repository.ClienteRepository;
 import pe.edu.upeu.lacuracao.repository.UnidadMedidaRepository;
 import pe.edu.upeu.lacuracao.service.ICategoriaService;
 import pe.edu.upeu.lacuracao.service.IMarcaService;
 import pe.edu.upeu.lacuracao.service.IProductoService;
+import pe.edu.upeu.lacuracao.service.IClienteService;
 import pe.edu.upeu.lacuracao.service.IUnidadMedidaService;
 import pe.edu.upeu.lacuracao.service.impl.CategoriaServiceImp;
 import pe.edu.upeu.lacuracao.service.impl.MarcaServiceImp;
 import pe.edu.upeu.lacuracao.service.impl.ProductoServiceImp;
+import pe.edu.upeu.lacuracao.service.impl.ClienteServiceImp;
 import pe.edu.upeu.lacuracao.service.impl.UnidadMedidaServiceImp;
 
 import java.util.HashMap;
@@ -51,6 +54,7 @@ public class AppContext {
         registrar(MarcaRepository.class,         new MarcaRepository());
         registrar(UnidadMedidaRepository.class,  new UnidadMedidaRepository());
         registrar(ProductoRepository.class,      new ProductoRepository());
+        registrar(ClienteRepository.class,       new ClienteRepository());
 
     }
 
@@ -63,6 +67,7 @@ public class AppContext {
         registrar(IMarcaService.class,        new MarcaServiceImp(       getBean(MarcaRepository.class)));
         registrar(IProductoService.class,     new ProductoServiceImp(    getBean(ProductoRepository.class)));
         registrar(IUnidadMedidaService.class, new UnidadMedidaServiceImp(getBean(UnidadMedidaRepository.class)));
+        registrar(IClienteService.class,      new ClienteServiceImp(getBean(ClienteRepository.class)));
 
 
     }
@@ -73,18 +78,15 @@ public class AppContext {
     private void registrarControladores() {
         //registrar(LoginController.class, new LoginController(getBean(IUsuarioService.class)));
         registrar(MainGuiController.class, new MainGuiController());
-        // ProductoController se crea bajo demanda con crearProductoController(linea)
+        registrar(ProductoController.class,
+                new ProductoController(
+                        getBean(IMarcaService.class),
+                        getBean(ICategoriaService.class),
+                        getBean(IProductoService.class),
+                        getBean(IUnidadMedidaService.class)));
+        registrar(ClienteController.class,
+                new ClienteController(getBean(IClienteService.class)));
 
-    }
-
-    /** Un ProductoController nuevo por cada opción del menú (Tecnología, Motos, Doméstica). */
-    public ProductoController crearProductoController(LineaNegocio linea) {
-        return new ProductoController(
-                getBean(IMarcaService.class),
-                getBean(ICategoriaService.class),
-                getBean(IProductoService.class),
-                getBean(IUnidadMedidaService.class),
-                linea);
     }
 
     // API del contenedor — estos dos métodos son todo lo que hace la DI

@@ -35,13 +35,13 @@ public class ProductoController {
     private final ICategoriaService cs;
     private final IProductoService ps;
     private final IUnidadMedidaService us;
-    private final LineaNegocio linea;   // qué módulo del menú File está abierto
 
     @FXML
     TextField txtNombreProducto, txtPUnit,
             txtPUnitOld, txtUtilidad, txtStock, txtStockOld, txtFiltroDato;
     @FXML
     ComboBox<ComboBoxOption> cbxTipoProducto;
+    @FXML ComboBox<LineaNegocio> cbxLinea;   // Tecnología / Tecnología Hogar / Motos
     @FXML ComboBox<ComboBoxOption> cbxMarca;
     @FXML ComboBox<ComboBoxOption> cbxCategoria;
     @FXML ComboBox<ComboBoxOption> cbxUnidMedida;
@@ -64,10 +64,9 @@ public class ProductoController {
     @FXML
     public void initialize(){
         System.out.println("Holas");
-        cbxTipoProducto.getItems().addAll(ps.listarTipoProducto(linea));
-        cbxMarca.getItems().addAll(ms.listarCombobox(linea));
-        cbxCategoria.getItems().addAll(cs.listarCombobox(linea));
-        cbxUnidMedida.getItems().addAll(us.listarCombobox(linea));
+        cbxLinea.getItems().addAll(LineaNegocio.values());
+        cbxLinea.valueProperty().addListener((obs, anterior, nueva) -> cargarCombos(nueva));
+        cbxLinea.getSelectionModel().selectFirst();   // Tecnología por defecto
 
         ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
         validator = factory.getValidator();
@@ -76,7 +75,7 @@ public class ProductoController {
 
         LinkedHashMap<String, ColumnInfo> columns = new LinkedHashMap<>();
         columns.put("ID Pro.", new ColumnInfo("idProducto", 60.0));
-        columns.put("Tipo Producto", new ColumnInfo("tipoProducto", 150.0));
+        columns.put("Subtipo", new ColumnInfo("tipoProducto", 150.0));
         columns.put("Nombre Producto", new ColumnInfo("nombre", 200.0));
         columns.put("P. Unitario", new ColumnInfo("pu", 150.0));
         columns.put("Utilidad", new ColumnInfo("utilidad", 100.0));
@@ -100,11 +99,23 @@ public class ProductoController {
     }
 
 
+    /** Llena subtipo, categoría, marca y unidad según el "Tipo de producto" elegido. */
+    private void cargarCombos(LineaNegocio linea) {
+        cbxTipoProducto.getItems().clear();
+        cbxMarca.getItems().clear();
+        cbxCategoria.getItems().clear();
+        cbxUnidMedida.getItems().clear();
+        if (linea == null) return;
+        cbxTipoProducto.getItems().addAll(ps.listarTipoProducto(linea));
+        cbxMarca.getItems().addAll(ms.listarCombobox(linea));
+        cbxCategoria.getItems().addAll(cs.listarCombobox(linea));
+        cbxUnidMedida.getItems().addAll(us.listarCombobox(linea));
+    }
+
     public void listar() {
         try {
             tableView.getItems().clear();
-            listarProducto = FXCollections.observableArrayList(
-                    ps.findAll().stream().filter(p -> linea.incluye(p.getTipoProducto())).toList());
+            listarProducto = FXCollections.observableArrayList(ps.findAll());
             tableView.getItems().addAll(listarProducto);
             //txtFiltroDato.textProperty().addListener((obs, o, n) -> filtrarProductos(n));
         } catch (Exception e) {
@@ -173,6 +184,7 @@ public class ProductoController {
 
 
     public void editForm(Producto producto) {
+        cbxLinea.setValue(LineaNegocio.de(producto.getTipoProducto()));
         txtNombreProducto.setText(producto.getNombre());
 
         txtPUnit.setText(producto.getPu().toString());
@@ -181,7 +193,7 @@ public class ProductoController {
 
         cbxTipoProducto.getSelectionModel().select(
                 cbxTipoProducto.getItems().stream()
-                        .filter(m -> m.getKey() == producto.getTipoProducto().name())
+                        .filter(m -> m.getKey().equals(producto.getTipoProducto().name()))
                         .findFirst().orElse(null));
 
         cbxMarca.getSelectionModel().select(

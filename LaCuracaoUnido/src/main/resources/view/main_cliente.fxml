@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="miContenedor"
+            xmlns="http://javafx.com/javafx/17.0.12"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="pe.edu.upeu.lacuracao.controller.ClienteController">
+
+    <children>
+        <VBox spacing="10.0"
+              AnchorPane.bottomAnchor="5.0"
+              AnchorPane.leftAnchor="5.0"
+              AnchorPane.rightAnchor="5.0"
+              AnchorPane.topAnchor="5.0">
+
+            <children>
+                <Label text="Gestionar Cliente" textFill="#1f3397">
+                    <font>
+                        <Font name="System Bold" size="18.0"/>
+                    </font>
+                </Label>
+
+                <HBox spacing="20.0">
+                    <children>
+
+                        <GridPane hgap="10.0" vgap="10.0">
+                            <padding>
+                                <Insets top="10.0" right="15.0" bottom="10.0" left="10.0"/>
+                            </padding>
+
+                            <columnConstraints>
+                                <ColumnConstraints minWidth="120.0"/>
+                                <ColumnConstraints minWidth="220.0" prefWidth="220.0"/>
+                            </columnConstraints>
+
+                            <children>
+                                <Label text="Formulario de Registro"
+                                       GridPane.columnSpan="2">
+                                    <font>
+                                        <Font name="System Bold" size="15.0"/>
+                                    </font>
+                                </Label>
+
+                                <Label text="DNI" GridPane.rowIndex="1"/>
+                                <TextField fx:id="txtDni"
+                                           promptText="Ingrese 8 dígitos"
+                                           GridPane.columnIndex="1"
+                                           GridPane.rowIndex="1"/>
+
+                                <Label text="Número" GridPane.rowIndex="2"/>
+                                <TextField fx:id="txtNumero"
+                                           promptText="Ingrese 9 dígitos"
+                                           GridPane.columnIndex="1"
+                                           GridPane.rowIndex="2"/>
+
+                                <Label text="Nombres" GridPane.rowIndex="3"/>
+                                <TextField fx:id="txtNombres"
+                                           promptText="Ingrese nombres completos"
+                                           GridPane.columnIndex="1"
+                                           GridPane.rowIndex="3"/>
+
+                                <HBox spacing="10.0"
+                                      GridPane.columnIndex="1"
+                                      GridPane.rowIndex="4">
+                                    <children>
+                                        <Button text="Guardar"
+                                                onAction="#validarFormulario"
+                                                prefWidth="100.0"/>
+                                        <Button text="Cancelar"
+                                                onAction="#clearForm"
+                                                prefWidth="100.0"/>
+                                    </children>
+                                </HBox>
+
+                                <Label fx:id="lbnMsg"
+                                       wrapText="true"
+                                       GridPane.columnSpan="2"
+                                       GridPane.rowIndex="5"/>
+                            </children>
+                        </GridPane>
+
+                        <VBox VBox.vgrow="ALWAYS"
+                              HBox.hgrow="ALWAYS">
+                            <children>
+                                <Label text="Clientes registrados">
+                                    <font>
+                                        <Font name="System Bold" size="15.0"/>
+                                    </font>
+                                </Label>
+                                <TableView fx:id="tableView"
+                                           VBox.vgrow="ALWAYS"/>
+                            </children>
+                        </VBox>
+
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

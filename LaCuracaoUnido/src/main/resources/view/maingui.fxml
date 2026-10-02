@@ -9,11 +9,9 @@
             <menus>
                 <Menu mnemonicParsing="false" text="File">
                     <items>
-                        <MenuItem fx:id="menuItem1" mnemonicParsing="false" text="Tecnología" />
-                        <MenuItem fx:id="menuItem2" mnemonicParsing="false" text="Motos" />
-                        <MenuItem fx:id="menuItem3" mnemonicParsing="false" text="Tecnología Doméstica" />
-                        <SeparatorMenuItem mnemonicParsing="false" />
-                        <MenuItem fx:id="menuItem4" mnemonicParsing="false" text="Close" />
+                        <MenuItem fx:id="menuItem1" mnemonicParsing="false" text="Productos" />
+                        <MenuItem fx:id="menuItem3" mnemonicParsing="false" text="Clientes" />
+                        <MenuItem fx:id="menuItem2" mnemonicParsing="false" text="Close" />
                     </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Edit">

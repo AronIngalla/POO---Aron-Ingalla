@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="650" prefWidth="1100" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pe.edu.upeu.sysjicar.controller.UsuarioController">
+    <top>
+        <VBox spacing="4" style="-fx-background-color: #f4f7fb;">
+            <Label prefHeight="32.0" prefWidth="248.0" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #173f70;" text="Gestionar Usuario" textFill="#1f3397">
+                <VBox.margin><Insets left="18" top="16" /></VBox.margin>
+            <font>
+               <Font size="17.0" />
+            </font>
+            </Label>
+            <Label style="-fx-text-fill: #65758b;">
+                <VBox.margin><Insets bottom="12" left="18" /></VBox.margin>
+            </Label>
+        </VBox>
+    </top>
+    <center>
+        <VBox spacing="12">
+            <padding><Insets bottom="18" left="18" right="18" top="16" /></padding>
+            <GridPane hgap="12" style="-fx-background-color: white; -fx-background-radius: 8; -fx-border-color: #dce4ee; -fx-border-radius: 8;" vgap="10">
+                <padding><Insets bottom="16" left="16" right="16" top="16" /></padding>
+                <Label text="Usuario" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                <TextField fx:id="txtUsuario" promptText="Nombre de usuario" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                <Label text="Contraseña" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                <PasswordField fx:id="txtClave" promptText="Contraseña" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Label text="Perfil" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+                <ComboBox fx:id="cbPerfil" maxWidth="Infinity" promptText="Seleccionar perfil" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                <Label text="Estado" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+                <ComboBox fx:id="cbEstado" maxWidth="Infinity" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                <HBox spacing="8" GridPane.columnIndex="0" GridPane.columnSpan="4" GridPane.rowIndex="2">
+                    <Button onAction="#guardar" style="-fx-background-color: #1769aa; -fx-text-fill: white;" text="Guardar" />
+                    <Button onAction="#actualizar" text="Actualizar" />
+                    <Button onAction="#eliminar" text="Eliminar" />
+                    <Button onAction="#limpiar" text="Limpiar" />
+                </HBox>
+                <columnConstraints>
+                    <ColumnConstraints hgrow="ALWAYS" percentWidth="25" /><ColumnConstraints hgrow="ALWAYS" percentWidth="25" />
+                    <ColumnConstraints hgrow="ALWAYS" percentWidth="25" /><ColumnConstraints hgrow="ALWAYS" percentWidth="25" />
+                </columnConstraints>
+            <rowConstraints>
+               <RowConstraints />
+               <RowConstraints />
+               <RowConstraints />
+            </rowConstraints>
+            </GridPane>
+            <TableView fx:id="tablaUsuarios" VBox.vgrow="ALWAYS">
+                <columns>
+                    <TableColumn fx:id="colId" prefWidth="70" text="ID" />
+                    <TableColumn fx:id="colUsuario" prefWidth="250" text="Usuario" />
+                    <TableColumn fx:id="colPerfil" prefWidth="220" text="Perfil" />
+                    <TableColumn fx:id="colEstado" prefWidth="160" text="Estado" />
+                </columns>
+            </TableView>
+        </VBox>
+    </center>
+</BorderPane>

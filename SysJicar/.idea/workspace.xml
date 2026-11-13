@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed611d06-931a-4636-8c34-3c7a1aaa6f03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/components/AutoCompleteTextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/components/comprob/ComprobantePdfService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/components/comprob/ComprobanteView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/controller/MainComprobanteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/controller/VentaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/dto/ModeloDataAutocomplet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/dto/PersonaDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/dto/comprobante/Comprobante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/dto/comprobante/ItemComprobante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/repository/VentCarritoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/repository/VentaDetalleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/repository/VentaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/service/IClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/service/IVentaCarritoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/service/IVentaDetalleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/service/IVentaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/service/impl/ClienteServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/service/impl/VentaCarritoServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/service/impl/VentaDetalleServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/service/impl/VentaServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/utils/ConsultaDNI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/utils/PrinterManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/resources/view/main_comprobante.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SysVentas/src/main/resources/view/main_venta.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SysVentas/data/sysventas.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../SysVentas/data/sysventas.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SysVentas/data/sysventas.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/../SysVentas/data/sysventas.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SysVentas/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SysVentas/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SysVentas/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/config/AppContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/config/AppContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/model/DocumentoComercial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/model/DocumentoComercial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/model/VentCarrito.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/model/VentCarrito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/model/Venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/model/Venta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/service/IProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/service/IProductoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/service/impl/MenuMenuItemDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/service/impl/MenuMenuItemDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/service/impl/ProductoServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SysVentas/src/main/java/pe/edu/upeu/sysventas/service/impl/ProductoServiceImp.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3Is6ZR11v4um5WvDXxNjvTnqNYJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.ConsultaDNI.executor": "Run",
+    "Application.Launcher.executor": "Run",
+    "Application.SysJicar.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "examPOOC2G2",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/G2 - POO/DESARROLLO/POO---Aron-Ingalla/SysJicar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "lombok"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\SysJicar\src\main\resources\view" />
+      <recent name="D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\SysJicar\src\main\java\pe\edu\upeu\sysjicar\controller" />
+      <recent name="D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\SysJicar\src\main\java\pe\edu\upeu\sysjicar\components" />
+      <recent name="D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\SysJicar\src\main\java\pe\edu\upeu\sysjicar\utils" />
+      <recent name="D:\G2 - POO\DESARROLLO\POO---Aron-Ingalla\SysJicar\src\main\java\pe\edu\upeu\sysjicar\dto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SysJicar\src\main\resources\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pe.edu.upeu.sysjicar.App" />
+      <module name="SysJicar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pe.edu.upeu.sysjicar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed611d06-931a-4636-8c34-3c7a1aaa6f03" name="Changes" comment="" />
+      <created>1788540984258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788540984258</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,99 @@
+/* =========================
+   BOTON BASE (btn)
+   ========================= */
+
+.btn {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16 8 16;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+}
+
+/* =========================
+   PRIMARY
+   ========================= */
+
+.btn-primary {
+    -fx-background-color: #0d6efd;
+    -fx-text-fill: white;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #0b5ed7;
+}
+
+.btn-primary:pressed {
+    -fx-background-color: #0a58ca;
+}
+
+/* =========================
+   SUCCESS
+   ========================= */
+
+.btn-success {
+    -fx-background-color: #198754;
+    -fx-text-fill: white;
+}
+
+.btn-success:hover {
+    -fx-background-color: #157347;
+}
+
+.btn-success:pressed {
+    -fx-background-color: #146c43;
+}
+
+/* =========================
+   DANGER
+   ========================= */
+
+.btn-danger {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: white;
+}
+
+.btn-danger:hover {
+    -fx-background-color: #bb2d3b;
+}
+
+.btn-danger:pressed {
+    -fx-background-color: #ea4958;
+}
+
+/* =========================
+   WARNING
+   ========================= */
+
+.btn-warning {
+    -fx-background-color: #ffc107;
+    -fx-text-fill: black;
+}
+
+.btn-warning:hover {
+    -fx-background-color: #ffca2c;
+}
+
+.btn-warning:pressed {
+    -fx-background-color: #ffcd39;
+}
+
+
+
+
+/* ===== Identidad visual SysJicar: barra superior tipo SysVentas ===== */
+.sysjicar-root { -fx-background-color: #f2f4f7; }
+.navigation-bar { -fx-background-color: #ffffff; -fx-border-color: transparent transparent #cbd3dc transparent; -fx-border-width: 0 0 1 0; }
+.nav-button { -fx-background-color: transparent; -fx-text-fill: #264b70; -fx-font-size: 13px; -fx-padding: 8 14 8 14; -fx-cursor: hand; }
+.nav-button:hover { -fx-background-color: #e1ebf5; -fx-background-radius: 4; }
+.session-user { -fx-text-fill: #264b70; -fx-font-size: 12px; -fx-font-weight: bold; }
+.session-role { -fx-text-fill: #5c6f82; -fx-font-size: 10px; }
+.logout-button { -fx-background-color: #dce8f3; -fx-text-fill: #16456f; -fx-background-radius: 3; }
+.action-toolbar { -fx-background-color: #f5f6f8; -fx-border-color: transparent transparent #cbd3dc transparent; -fx-padding: 5 12 5 12; -fx-spacing: 10; }
+.tool-button { -fx-background-color: transparent; -fx-text-fill: #264b70; -fx-font-size: 11px; -fx-min-width: 76px; -fx-min-height: 56px; -fx-wrap-text: true; -fx-cursor: hand; }
+.tool-button:hover { -fx-background-color: #e1ebf5; -fx-background-radius: 4; }
+.content-area { -fx-background-color: #ffffff; }
+.welcome-title { -fx-font-size: 30px; -fx-font-weight: bold; -fx-text-fill: #123f79; }
+.welcome-subtitle { -fx-font-size: 15px; -fx-text-fill: #5c6f82; }
+.welcome-user { -fx-font-size: 13px; -fx-text-fill: #2874b9; }
